@@ -25,6 +25,7 @@ Using a 5bp spread to screen allows for more safety in ensuring our post_only or
 Currently was running into an issue with putting on short spot/margin trades, so have that side disabled and area always running long spot/short perp, however this is more relevant in the case where we are trading around the funding (and is a one line fix when I get it enabled)
 
 To run the code/other files:
+
 ```main.py``` is set up to run the strategy on the ETH/USD market with .01 ETH per side, followed by running the trade with market orders
 
 ```test.py``` will run unit tests utilizing a mock FTX api that I built
