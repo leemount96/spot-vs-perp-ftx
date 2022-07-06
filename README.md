@@ -26,5 +26,7 @@ Currently was running into an issue with putting on short spot/margin trades, so
 
 To run the code/other files:
 ```main.py``` is set up to run the strategy on the ETH/USD market with .01 ETH per side, followed by running the trade with market orders
+
 ```test.py``` will run unit tests utilizing a mock FTX api that I built
+
 ```main_pybit.py``` is the incomplete implementation using the Bybit API
