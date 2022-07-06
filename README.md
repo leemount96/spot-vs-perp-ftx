@@ -1,6 +1,6 @@
 "Better" Market Order Trading
 
-Implement a way to enter a buy spot/sell perp order, then close those positions while paying less in fees than you would with market orders
+Purpose: Implement a way to enter a buy spot/sell perp order, then close those positions while paying less in fees than you would with market orders
 
 I built the strategy around the FTX API, making use of their pre-built Python package (added a few functions that they didn't have built in). I had started working on a Bybit version that is incomplete, so the main_pybit file can be ignored, however for future iterations I think it could be interesting to explore cross-exchange trading opportunities as certain exchanges offer more favorable fees for makers vs takers.
 
